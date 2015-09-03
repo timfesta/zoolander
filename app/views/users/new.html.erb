@@ -1,0 +1,19 @@
+<div class="container">
+	<div class="text-center">
+		<h1>Sign Up</h1>
+		<br>
+		<br>
+		<div>
+			<%= form_for @user do |f| %>
+			<%= f.text_field :user_name, placeholder: "Username" %><br>
+			<%= f.email_field :email, placeholder: "Email" %><br>
+			<%= f.password_field :password, placeholder: "Password" %><br>
+			<br>
+			<%= f.submit "Sign Up" %>
+			<% end %>	
+		</div>
+		
+	</div>
+</div>
+
+

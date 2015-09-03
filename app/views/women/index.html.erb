@@ -1,0 +1,8 @@
+<h1>Womens </h1>
+<hr>
+<% @women.each do |woman| %>
+<p><%= women.top %></p>
+	<% end %> 
+	<% if current_user %>
+	<%= link_to "Mens" new_man_path %>
+	<% end %>

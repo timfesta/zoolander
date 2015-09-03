@@ -1,0 +1,19 @@
+<div class="container">
+	<div class="text-center">
+		<h1>Log In</h1>
+		<br>
+		<br>
+		<div>
+			<!-- use ':' because we haven't created an instance and sessions_path is used for -->
+			<%= form_for :user, url: sessions_path do |f| %>
+			<%= f.email_field :email, placeholder: "Email" %><br>
+			<%= f.password_field :password, placeholder: "Password" %><br>
+			<br>
+			<%= f.submit "Log In" %>
+			<% end %>
+		</div>
+			
+		</div>
+	</div>
+
+
