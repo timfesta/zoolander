@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'welcome/index'
+
   #users routes
   get "/signup", to: 'users#new'
   get "/profile", to: 'users#show'
