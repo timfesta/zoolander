@@ -21,10 +21,10 @@ Rails.application.routes.draw do
 
   #women routes
   get 'women' => 'women#index'
-  get 'one' => 'women#one'
-  get 'two' => 'women#two'
-  get 'three' => 'women#three'
-  get 'four' => 'women#four'
+  get 'ones' => 'women#one'
+  get 'twos' => 'women#two'
+  get 'threes' => 'women#three'
+  get 'fours' => 'women#four'
   resources :women
 
   root 'welcome#index'
