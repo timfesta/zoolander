@@ -4,7 +4,6 @@ Rails.application.routes.draw do
 
   #users routes
   get 'signup'  =>  'users#new'
-  # get "/signup", to: 'users#new'
   get "/profile", to: 'users#show'
   resources :users, only: [:create]
 
@@ -15,9 +14,13 @@ Rails.application.routes.draw do
   post "session", to: 'sessions#create'
 
   #men routes
+  get 'one' => 'men#one'
+  get 'two' => 'men#two'
+  get 'men' => 'men#index'
   resources :men
 
   #women routes
+  get 'women' => 'women#index'
   resources :women
 
   #homepage

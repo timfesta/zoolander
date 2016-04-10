@@ -2,21 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#wbackground {
-	background-image: url(http://static1.squarespace.com/static/5523f3f0e4b0fda199f57375/t/55ad4395e4b07cbac06adad7/1437418389065/Skyline+Dusk.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size:cover;
-}
-
-#mbackground {
-	background-image: url(http://static.pistoncloud.com/2014/07/Great-Value-Accommodation-in-Paris.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size:cover;
+.jumbotron {
+	height: 200px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	background-color: white;
 }
 
 #white {
 	font-size: 71px;
 	color: white;
 }
+
+#women {
+	background-image: url('boom.png');
+	height: 400px;
+	background-repeat: no-repeat;
+}
+
+#men {
+	background-image: url('ny.png');
+	height: 400px;
+	background-repeat: no-repeat;
+}
+
