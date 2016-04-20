@@ -14,3 +14,8 @@
 //= require jquery_ujs
 
 //= require_tree .
+
+$("#image").fadeOut(function() { 
+  $(this).load(function() { $(this).fadeIn(5000); }); 
+  $(this).attr("src", "./assets/ny.png"); 
+});
